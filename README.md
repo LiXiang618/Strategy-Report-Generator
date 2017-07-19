@@ -98,7 +98,7 @@ This chart shows the return of each year.
 
 We calculate the total return within each year, shown by the blue bars. The red dotted line represents the average of the annual returns.
 
-One thing needs mentioning: if the backtest covers less than 12 month of a certain year, then the annual reutrn of this year is the total actual return rather than annulized return.
+One thing needs mentioning: if the backtest covers less than 12 month of a certain year, then the annual reutrn of this year is the total actual return rather than annualized return.
 
 ### 5. Distribution of Monthly Returns
 
@@ -115,3 +115,32 @@ The x-axis represents the value of return. The y-axis is the number of months wh
 This group of charts shows the behaviors of both your strategy and the benchmark during a certain historical period. 
 
 We set the value of your strategy the same as the benchmark at the beginning of each crisis event, and the lines represent the cumulative returns of your strategy and benchmark from the beginning of this crisis event.
+
+### 7. Rolling Portfolio Beta to Equity
+
+![GitHub Logo](/images/rolling-portfolio-beta-to-equity.png)
+This chart shows the rolling portfolio beta to the benchmark.
+
+This chart is drawn based on daily data. Every day, we calculate the beta of your portfolio to the benchmark over the past 6 months (grey line) or 12 months (blue line). 
+
+A beta close to 1 means the strategy has a risk exposure similar to the benchmark; a beta higher than 1 means the strategy is riskier than the benchmark; a beta close to 0 means the strategy is "market neutral", which isn't much affected by market situation. Beta could also be negative, under which the strategy has opposite risk expousure to the benchmark.
+
+### 8. Rolling Sharpe Ratio
+
+![GitHub Logo](/images/rolling-sharpe-ratio(6-month).png)
+This chart shows the rolling sharpe ratio of your strategy.
+
+The rolling sharpe ratio is calculated on daily data, and annualized. Every day, we calculate the sharpe ratio of your portfolio over the past 6 months, and connect the sharpe ratios into a line. The red dotted line represents the mean value of the total sharpe ratios.
+
+
+
+
+
+
+
+
+
+
+
+
+

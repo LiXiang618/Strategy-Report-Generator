@@ -69,18 +69,25 @@ This chart shows the daily returns for your strategy.
 
 When the return is positive, a orange bar will show above the horizontal line; when the return is negative, a grey bar will show below the horizontal line.
 
-### 3. Top 5 Drawdown Period
+### 3. Top 5 Drawdown Periods
 
 ![GitHub Logo](/images/drawdowns.png)
 This chart shows the drawdown of each day.
 
-A certain day's drawdown is defined as the percentage of loss compared to the maximum value prior to this day.
+A certain day's drawdown is defined as the percentage of loss compared to the maximum value prior to this day. The drawdowns are calculated based on daily data.
 
 By this defination, we can infer that when cerntain day's value is the maximum so far, its drawdown is 0.
 
-The top 5 drawdown period is marked in the chart.
+The top 5 drawdown periods are marked in the chart with different colors.
 
+### 4. Monthly Returns
 
+![GitHub Logo](/images/monthly-returns.png)
+This chart shows the return of each month.
+
+We convert original price series into monthly series, and calculate the returns of each month. 
+
+The green color indicates positive return, the red color indicates negative return, and the greater the loss is, the darker the color is; the yellow color means the gain or loss is rather small; the white color means the month is not included in the backtest period.
 
 
 

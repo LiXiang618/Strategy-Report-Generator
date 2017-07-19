@@ -98,7 +98,7 @@ This chart shows the return of each year.
 
 We calculate the total return within each year, shown by the blue bars. The red dotted line represents the average of the annual returns.
 
-One thing needs mentioning: if the backtest covers less than 12 month of a certain year, then the annual reutrn of this year is the total actual return rather than annualized return.
+One thing needs mentioning: if the backtest covers less than 12 month of a certain year, then the value in the chart is the actual return which is not annualized.
 
 ### 5. Distribution of Monthly Returns
 

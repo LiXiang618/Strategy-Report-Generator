@@ -1,7 +1,7 @@
 # LeanReportCreator
 Create beautiful HTML/PDF reports for sharing your LEAN backtest and live trading results.
 
-## Instruction on installing and running program
+## Instruction on installing and running the program
 
 Dear users, please refer to the following instructions to generate your strategy report!
 
@@ -48,3 +48,12 @@ Note:
 (2)all the individual images in the directory "images"
 
 (3)strategy-statistics.json
+
+## Explaination on the meaning of the charts
+
+Here I am going to give you a detailed explaination on the meaning of each chart.
+
+### 1.Cumulative Return
+
+![GitHub Logo](/images/cumulative-return.png)
+Format: ![Alt Text](url)

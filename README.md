@@ -56,4 +56,7 @@ Here I am going to give you a detailed explaination on the meaning of each chart
 ### 1.Cumulative Return
 
 ![GitHub Logo](/images/cumulative-return.png)
-This chart shows the cumulative return for 
+This chart shows the cumulative returns for both your strategy (in orange) and the benchmark (in grey).
+The backtest version of this chart is calculated based on daily data. If the original price series in json file is not daily, we will first convert them into daily data.
+The live version of this chart is calculated based on miniute data. Icons on the chart will show when the live trading started, stopped, or had runtime errors.
+

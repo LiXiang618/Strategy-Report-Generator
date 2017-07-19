@@ -132,8 +132,23 @@ This chart shows the rolling sharpe ratio of your strategy.
 
 The rolling sharpe ratio is calculated on daily data, and annualized. Every day, we calculate the sharpe ratio of your portfolio over the past 6 months, and connect the sharpe ratios into a line. The red dotted line represents the mean value of the total sharpe ratios.
 
+### 9. Net Holdings
 
+![GitHub Logo](/images/net-holdings.png)
+This chart shows the net holdings of your portfolio.
 
+The net holding is the aggregated weight of risky assets in your portfolio. It could be either positive (when your total position is long), negative (when your total position is short) or 0 (when you only hold cash). The net holding changes only if new order is fired.
+
+The chart is drawn based on minute data, which means we aggregate all the risky positions in every minute together.
+
+### 10. Leverage
+
+![GitHub Logo](/images/leverage.png)
+This chart shows the leverage of your portfolio.
+
+The value of the leverage is always non-negative. When you only hold cash, the leverage is 0; a leverage smaller than 1 means you either long assets with money less than your portfolio value or short assets with total value less than your portfolio value; a leverage larger than 1 means you either borrow money to buy assets or short assets whose value is larger than your portfolio value. The leverage changes only if new order is fired.
+
+The chart is drawn based on minute data, which means we aggregate all the risky positions in every minute together.
 
 
 

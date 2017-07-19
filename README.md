@@ -11,7 +11,7 @@ For Linux users, you can execute the bash file "install.sh" to establish R envir
 
 For Windows users, you are recommended to install Rstudio and finish the same environment configuration manually.
 
-After R is installed, you can execute "install.R" file by the command "Rscript install.R" to install all the necessary libraries.
+After R is installed, you can execute "install.R" file by the command "Rscript install.R" to install all the necessary R libraries.
 
 ### 2. Prepare input files
 

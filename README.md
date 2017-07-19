@@ -89,6 +89,8 @@ We convert original price series into monthly series, and calculate the returns 
 
 The green color indicates positive return, the red color indicates negative return, and the greater the loss is, the darker the color is; the yellow color means the gain or loss is rather small; the white color means the month is not included in the backtest period.
 
+The values in the cells are in percentage.
+
 
 
 

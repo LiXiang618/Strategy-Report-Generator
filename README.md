@@ -168,6 +168,12 @@ The first chart shows the percentages of all the assets together. The sum of the
 
 The rest of the pie charts shows the percentages of some more specific asset classes, for example, stocks, foreign exchanges, etc. We won't draw the chart if your portfolio doesn't include any asset within this class.
 
+### 12. Return Prediction
+
+![GitHub Logo](/images/return-prediction.png)
+This chart shows the cumulative returns as well as the future trend prediction.
+
+The future trend is predicted based on Monte Carlo Simulation. The blue line is the 50% percentile of the simualtion results; the area in dark shadow represents the simulation results between 25% and 75%; the area in light shadow represents the simulation results between 5% and 95%.
 
 
 

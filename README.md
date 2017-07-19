@@ -56,4 +56,4 @@ Here I am going to give you a detailed explaination on the meaning of each chart
 ### 1.Cumulative Return
 
 ![GitHub Logo](/images/cumulative-return.png)
-Format: ![Alt Text](url)
+This chart shows the cumulative return for 

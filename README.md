@@ -116,6 +116,8 @@ This group of charts shows the behaviors of both your strategy and the benchmark
 
 We set the value of your strategy the same as the benchmark at the beginning of each crisis event, and the lines represent the cumulative returns of your strategy and benchmark from the beginning of this crisis event.
 
+We won't draw the crisis event charts whose time periods are not covered by your strategy.
+
 ### 7. Rolling Portfolio Beta to Equity
 
 ![GitHub Logo](/images/rolling-portfolio-beta-to-equity.png)
@@ -125,12 +127,16 @@ This chart is drawn based on daily data. Every day, we calculate the beta of you
 
 A beta close to 1 means the strategy has a risk exposure similar to the benchmark; a beta higher than 1 means the strategy is riskier than the benchmark; a beta close to 0 means the strategy is "market neutral", which isn't much affected by market situation. Beta could also be negative, under which the strategy has opposite risk expousure to the benchmark.
 
+We won't draw this chart when your backtest period is less than 12 months.
+
 ### 8. Rolling Sharpe Ratio
 
 ![GitHub Logo](/images/rolling-sharpe-ratio(6-month).png)
 This chart shows the rolling sharpe ratio of your strategy.
 
 The rolling sharpe ratio is calculated on daily data, and annualized. Every day, we calculate the sharpe ratio of your portfolio over the past 6 months, and connect the sharpe ratios into a line. The red dotted line represents the mean value of the total sharpe ratios.
+
+We won't draw this chart when your backtest period is less than 6 months.
 
 ### 9. Net Holdings
 
@@ -150,7 +156,17 @@ The value of the leverage is always non-negative. When you only hold cash, the l
 
 The chart is drawn based on minute data, which means we aggregate all the risky positions in every minute together.
 
+### 11. Asset Allocations
 
+![GitHub Logo](/images/asset-allocation-all.png)
+![GitHub Logo](/images/asset-allocation-equity.png)
+This group of charts show your asset allocations.
+
+It is a time-weighted average of each class of asset to your portfolio. 
+
+The first chart shows the percentages of all the assets together. The sum of the percentages is 100%. When a certain asset has very small percentage and is too small to be shown in the pie chart, it will be incorporated into "others" class. The value of the percentage could be either positive or negative. 
+
+The rest of the pie charts shows the percentages of some more specific asset classes, for example, stocks, foreign exchanges, etc. We won't draw the chart if your portfolio doesn't include any asset within this class.
 
 
 

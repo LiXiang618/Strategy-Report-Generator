@@ -109,8 +109,11 @@ The x-axis represents the value of return. The y-axis is the number of months wh
 
 ### 6. Crisis Events
 
+9/11
 ![GitHub Logo](/images/crisis-9-11.png)
+Lehman Brothers
 ![GitHub Logo](/images/crisis-lehman-brothers.png)
+Us Downgrade/European Debt Crisis
 ![GitHub Logo](/images/crisis-us-downgrade-european-debt-crisis.png)
 This group of charts shows the behaviors of both your strategy and the benchmark during a certain historical period. 
 

@@ -21,15 +21,21 @@ After R is installed, you can execute "install.R" file by the command "Rscript i
 
 Use the following command to generate your strategy report:
 
-"Rscript Analyze.R ./json/sample.json Analyze.html ./"
+If you want to generate a backtesting report, you should use this command.
+
+"Rscript Backtest.R ./json/sample.json Backtest.html ./"
+
+If you want to generate a live trading report, you should use this command.
+
+"Rscript Live.R ./json/sample.json Live.html ./"
 
 Note: 
 
-(1)The first parameter "Analyze.R" is the file we are going to execute, other function files are called inside this file.
+(1)The first parameter "Backtest.R" (or "Live.R") is the file we are going to execute, other function files are called inside this file.
 
 (2)The second parameter "./json/sample.json" is your json file.
 
-(3)The third parameter "Analyze.html" is the name of an informal version of html output.
+(3)The third parameter "Backtest.html" (or "Live.html") is the name of an informal version of html output.
 
 (4)The fourth parameter "./" is the output directory.
 

@@ -100,4 +100,18 @@ We calculate the total return within each year, shown by the blue bars. The red 
 
 One thing needs mentioning: if the backtest covers less than 12 month of a certain year, then the annual reutrn of this year is the total actual return rather than annulized return.
 
+### 5. Distribution of Monthly Returns
 
+![GitHub Logo](/images/distribution-of-monthly-returns.png)
+This chart shows the distribution of monthly returns.
+
+The x-axis represents the value of return. The y-axis is the number of months which have a certain return. The red dotted line represents mean value of montly returns.
+
+### 6. Crisis Events
+
+![GitHub Logo](/images/crisis-9-11.png)
+![GitHub Logo](/images/crisis-lehman-brothers.png)
+![GitHub Logo](/images/crisis-us-downgrade-european-debt-crisis.png)
+This group of charts shows the behaviors of both your strategy and the benchmark during a certain historical period. 
+
+We set the value of your strategy the same as the benchmark at the beginning of each crisis event, and the lines represent the cumulative returns of your strategy and benchmark from the beginning of this crisis event.
